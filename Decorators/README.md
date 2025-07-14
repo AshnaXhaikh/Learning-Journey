@@ -35,4 +35,29 @@ def outer():
     inner()
 
 outer()
+````
 
+### ✅ Output
+
+```
+Outer function
+Inner function
+```
+
+---
+
+## 🧭 Use Cases
+
+* Structuring complex logic in **steps**.
+* Creating **helper functions** that aren't visible outside.
+* **Basis for decorators** (you'll see in later parts).
+
+---
+
+### 📂 Related File
+
+[`02_function_inside_function.py`](./02_function_inside_function.py)
+
+📌 **Next Part**: [Return Function →](./03_return_function.py)
+
+````
