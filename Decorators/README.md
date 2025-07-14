@@ -11,9 +11,9 @@ In Python, functions are **first-class objects**. That means:
 This concept is the **foundation** for understanding decorators. Decorators are built on the idea of returning and wrapping functions.
 
 ### 📂 Related File
-[`Functions_are_Objects.py`](./Functions_are_Objects.py)
+[`Functions_are_Objects.py`](./Functions_are_Objects.ipynb)
 
-📌 **Next Part**: [Function Inside Function →](./02_function_inside_function.py)
+📌 **Next Part**: [Function Inside Function →](./02_function_inside_function_py.ipynb)
 ---
 
 # 📍 Part 2: Function Inside Function
