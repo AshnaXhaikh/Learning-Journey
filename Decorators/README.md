@@ -11,7 +11,7 @@ In Python, functions are **first-class objects**. That means:
 This concept is the **foundation** for understanding decorators. Decorators are built on the idea of returning and wrapping functions.
 
 ### 📂 Related File
-[`Functions_are_Objects.py`](./Functions_are_Objects.ipynb)
+[`Functions_are_Objects.ipynb`](./Functions_are_Objects.ipynb)
 
 📌 **Next Part**: [Function Inside Function →](./02_function_inside_function_py.ipynb)
 ---
@@ -56,8 +56,39 @@ Inner function
 
 ### 📂 Related File
 
-[`02_function_inside_function.py`](./02_function_inside_function.py)
+[`02_function_inside_function.ipynb`](./02_function_inside_function.ipynb)
 
-📌 **Next Part**: [Return Function →](./03_return_function.py)
+📌 **Next Part**: [Return Function →](./03_return_function.ipynb)
 
-````
+```
+## 🟠 Part 3: Returning a Function (Closure)
+Shows how to return an inner function, creating a **closure** that remembers outer variables.
+
+✅ [Code](./03_return_function.ipynb)
+
+This part shows how to **return** an inner function from an outer function.  
+By returning the inner function, we create a **closure**.  
+
+A **closure** is when the inner function *remembers* variables from its outer function even after the outer function has finished running.
+
+---
+
+### 💻 Example
+```python
+def outer():
+    message = "Hello from outer!"
+
+    def inner():
+        print(message)
+
+    return inner
+
+# Create the closure
+func = outer()
+func()  # Output: Hello from outer!
+```
+✅ Output:
+```python
+Hello from outer!
+```
+📌 **Next Part**: [Basic_decorator_structure →](./04_basic_decorator_structure.ipynb)
