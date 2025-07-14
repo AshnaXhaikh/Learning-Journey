@@ -1,3 +1,42 @@
+# 🐍 Python Decorators: From Basic to Advance
+ 
+Welcome! This repo is my learning journey through understanding Python decorators, broken into 10 clear, simple steps. 
+---
+
+## 📚 Table of Contents
+
+| Part | Topic                          | Link                                              |
+| ---- | ------------------------------ | ------------------------------------------------- |
+| 1️⃣   | Functions Are Objects          | [01_functions_are_objects.ipynb](./01_functions_are_objects.ipynb) |
+| 2️⃣   | Function Inside Function       | [02_function_inside_function.ipynb(./02_function_inside_function.ipynb) |
+| 3️⃣   | Returning a Function           | [03_return_function.ipynb](./03_return_function.ipynb) |
+| 4️⃣   | Basic Decorator Structure      | [04_basic_decorator_structure.ipynb](./04_basic_decorator_structure.ipynb) |
+| 5️⃣   | Decorator @ Syntax             | [05_decorator_syntax.ipynb](./05_decorator_syntax.ipynb) |
+| 6️⃣   | Decorators with Arguments      | [06_decorator_with_arguments.ipynb](./06_decorator_with_arguments.ipynb) |
+| 7️⃣   | Real-life Example: Logging     | [07_logging_decorator.ipynb](./07_logging_decorator.ipynb) |
+| 8️⃣   | Preserving Metadata with Wraps | [08_functools_wraps.ipynb](./08_functools_wraps.ipynb) |
+| 9️⃣   | Decorators with Parameters     | [09_decorator_factory.ipynb](./09_decorator_factory.ipynb) |
+| 🔟   | Advanced: Class-based Decorators| [10_class_based_decorator.ipynb](./10_class_based_decorator.ipynb) |
+
+---
+
+## 📌 About This Series
+
+This repository is designed to help you understand Python decorators from scratch:
+
+✅ Part 1–3: **Fundamentals of functions** (assign, pass, return, nested)  
+✅ Part 4–6: **Basic to intermediate decorators**  
+✅ Part 7–10: **Advanced patterns and best practices**  
+
+---
+
+## 📦 How to Use
+
+1️⃣ Clone the repo  
+```bash
+git clone https://github.com/AshnaXhaikh/Learning-Journey/Decorators.git
+cd decorators
+```
 # 📍 Part 1: Functions are Objects in Python
 
 In Python, functions are **first-class objects**. That means:
