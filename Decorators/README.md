@@ -8,7 +8,7 @@ Welcome! This repo is my learning journey through understanding Python decorator
 | Part | Topic                          | Link                                              |
 | ---- | ------------------------------ | ------------------------------------------------- |
 | 1️⃣   | Functions Are Objects          | [01_functions_are_objects.ipynb](./01_functions_are_objects.ipynb) |
-| 2️⃣   | Function Inside Function       | [02_function_inside_function.ipynb(./02_function_inside_function.ipynb) |
+| 2️⃣   | Function Inside Function       | [02_function_inside_function.ipynb](./02_function_inside_function.ipynb) |
 | 3️⃣   | Returning a Function           | [03_return_function.ipynb](./03_return_function.ipynb) |
 | 4️⃣   | Basic Decorator Structure      | [04_basic_decorator_structure.ipynb](./04_basic_decorator_structure.ipynb) |
 | 5️⃣   | Decorator @ Syntax             | [05_decorator_syntax.ipynb](./05_decorator_syntax.ipynb) |
